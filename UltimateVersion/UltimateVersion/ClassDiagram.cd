@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Base" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAIABCAAIAQAA=</HashCode>
+      <FileName>D:\Users\Prometheus\Documents\Visual Studio 2013\Projects\Moshou\Moshou\moshou_full.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="City" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAEIAAAAgAAAgAgAAACAQAAAAIAAAAA=</HashCode>
+      <FileName>D:\Users\Prometheus\Documents\Visual Studio 2013\Projects\Moshou\Moshou\moshou_full.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clan" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAFAAABAAAAiAEAAQAAAAEIAAAECABAACAEAAAIAgg=</HashCode>
+      <FileName>D:\Users\Prometheus\Documents\Visual Studio 2013\Projects\Moshou\Moshou\moshou_full.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weapon" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Users\Prometheus\Documents\Visual Studio 2013\Projects\Moshou\Moshou\moshou_full.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bomb" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Users\Prometheus\Documents\Visual Studio 2013\Projects\Moshou\Moshou\moshou_full.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sword" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAACAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>D:\Users\Prometheus\Documents\Visual Studio 2013\Projects\Moshou\Moshou\moshou_full.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arrow" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAACAAAAAAAAAAAAACgAAAAAAAA=</HashCode>
+      <FileName>D:\Users\Prometheus\Documents\Visual Studio 2013\Projects\Moshou\Moshou\moshou_full.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soldier" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAAAgAAAAAAAAAAAgAAAACAAOAAAAABAAI=</HashCode>
+      <FileName>D:\Users\Prometheus\Documents\Visual Studio 2013\Projects\Moshou\Moshou\moshou_full.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dragon" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABAAAAAAABAAAAAAAAAAAAAAAAAgAAIAAAAA=</HashCode>
+      <FileName>D:\Users\Prometheus\Documents\Visual Studio 2013\Projects\Moshou\Moshou\moshou_full.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ninja" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAgAAAQAAAA=</HashCode>
+      <FileName>D:\Users\Prometheus\Documents\Visual Studio 2013\Projects\Moshou\Moshou\moshou_full.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Iceman" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAIAAAAAAAAAAAAAAAAAAAAAAAgAEAAAAAA=</HashCode>
+      <FileName>D:\Users\Prometheus\Documents\Visual Studio 2013\Projects\Moshou\Moshou\moshou_full.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lion" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>D:\Users\Prometheus\Documents\Visual Studio 2013\Projects\Moshou\Moshou\moshou_full.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wolf" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Users\Prometheus\Documents\Visual Studio 2013\Projects\Moshou\Moshou\moshou_full.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
