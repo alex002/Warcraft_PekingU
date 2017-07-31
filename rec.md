@@ -1,6 +1,3 @@
-Beer's law (Eq.) suggests that the x-ray imaging is a non-linear process, since the number of x-ray photons decreases exponentially when x-rays pass through materials. Because the solving a non-linear system is typically much harder than solving a linear system, many reconstruction algorithms, including the famous FBP algorithm, first convert the imaging process into a linear system and then solve the reconstruction problem in a linear system. This linearization step is often called logarithmic transformation of the raw data, it converts the photon counts measured directly from the detector to a line integral image, which is a summation of the linear attenuation coefficients. Mathematically, the linearization can be expressed as the following:
-1.	Beer’s law
-2.	Log transform on both sides
-3.	Move terms to different sides of the equation 
+Fundamentals of Futures and Options Markets
 
-It should be noted that some reconstruction algorithms, e.g. the Maximum Likelihood Expectation Maximization algorithm,  do not require the linearization step and uses photon counts during the reconstruction.[Cite Dr.Lalush’s paper] Although these methods model the system more accurately, they generally run slower than those algorithms require linearization. In this thesis, I will focus on the group of reconstruction methods that requires linearization, and the measurement or the measured data mentioned shown later in the thesis refers to the projection data after the logarithmic transformation.  
+Securitization, structuring and investment analysis
