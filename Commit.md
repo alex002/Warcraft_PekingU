@@ -1,4 +1,4 @@
-1. What is the correlation between cals in breast with cals in heart?
-2. Mammo is not quantitative, how to get quantitative info from mammo?
-3. What is the sensitivity. 
-4. CAT might be expensive and high radiation risk, but extremity radiograph is not. Then what is the benefit?
+1. Review the title. 
+2. Explain what the Chi-square value and P-value mean for each survey question? How to intepret these two values (What is the question that those two values are used to answer)?
+3. More analysis. The result and conclusion are too straightforward. Maybe the authors could conduct a deeper analysis to perhaps answer some more interesting questions, such A more important question would be Why? For example, do oncologists at different ages have statistically different opinions on ORM? Is there any correlation between Q15: I welcome the idea of managing my online reputation and Q11: I blieve online review are more impactful than "word of mouth" or Q12: I believe that patient read online review? In another word, how does the current practise affected by oncologists' understanding of online review? And maybe the authors could further discuss the reason why some oncologists do not welcome the idea of managing their online reputation.   
+4. 
