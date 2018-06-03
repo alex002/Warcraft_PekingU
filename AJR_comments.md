@@ -18,3 +18,4 @@ Regarding the score metrics for optic nerve tortuosity:
 
 Given the scoring system, if the optic nerve diameter is less than 2 SD from the mean, the total score will be less than 8 (OPG) even though optic nerve tortuosity is 5. On the other hand, if the optic nerve diameter is >= 2 SD from the mean, the total score will be large than 5, which is suggestive of OPG. 
 
+Please provide the statistics (e.g. mean, std, range) of the scores for NF1 patients w/o OPG, NF1 patients w/ OPG, and control.
