@@ -1,21 +1,30 @@
 Major revision.
 
+This article describes a scoring system for diagnosing optic nerve glioma in NF1 patients from MRI orbit scans.  I found the topic is of interests to the readers of this journal and this research is meaningful.  The article is generally in a good shape except some grammar errors throughout the paper.  Some details of the scoring system are not clear, and I wish the authors could elaborate:
 
+1. Some machine learning algorithms, such as random forest, gradient boosting, and neural network, are also good at classifying data.  What are the benefits of using scoring system comparing to the use of computer classifiers?
 
-1. Some machine learning algorithms, such as random forest, gradient boosting, and neural network, are also good at classifying data, especially for complicated problems.  What are the benefits of using this scoring system comparing to the use of ML classifiers?
-
-2. The scoring system is derived based on a sample of the whole population. In this case, the scoring system may overfit to this sample data and not perform well when being used to analysis other data points in the population.  Cross-validation analysis is desired to avoid this over-estimation.  An example would be separating the patient data into two groups, one to develope the scoring system/classifier, the other groups to evaluate the performance of the scoring system developed from first group.  This process can be done repeatedly or iteratively until a best scoring system is obtained.  Please discuss the cross-validation analysis of this scoring system.  If it is not required, please justify. <Please discuss the cross-validation analysis of this scoring system.>
+2. What are collinearities of any two metrics in the scoring system.
 
 Regarding the score metrics for optic nerve diameter:
-3. Do authors expect the user to measure and determine the SD? If so, how would user get a reliable measurement of SD; If not, I would suggest simply use an absolute diameter value instead of the SD to determine the score. 
+3. Do users need to measure and determine the SD? If so, how would user get a reliable measurement of SD; If not, then an absolute diameter value may be better than SD. 
 
-4. For diameter >= mean diameter +- 1 SD, what is the rational for using a score value of 2.5? Given that no other metric have a 0.5 score.
+4. For diameter >= mean diameter + 1 SD, what is the rational for using a score of 2.5? Is the score value for each metric also determined by the ROC curve?
 
-5. Will the optic nerve diameter differ among patients with different genders, or at different ages? In another word, will the score metric be adjusted for different genders and ages?
+5. How the metrics are determined? Based on table 1, the differences in the max diameter among three groups are quite large, what are the rationals of using 1 SD and 2 SD? 
+
+6. Will the optic nerve diameter differ among patients at different ages? In another word, do we need to adjust the score metrics for different groups of patients?
 
 Regarding the score metrics for optic nerve tortuosity: 
-6. Can the first four metrics be observed at the same time (interruption w/ retun, interruption w/ return, lack of congruity, and axial deviation)? 
+7. Can the first four metrics be observed at the same time (interruption w/ retun, interruption w/ return, lack of congruity, and axial deviation)? 
 
-Given the scoring system, if the optic nerve diameter is less than 2 SD from the mean, the total score will be less than 8 (OPG) even though optic nerve tortuosity is 5. On the other hand, if the optic nerve diameter is >= 2 SD from the mean, the total score will be large than 5, which is suggestive of OPG. 
+8. Please provide the statistics (e.g. mean, std, range) of the scores for NF1 patients w/o OPG, NF1 patients w/ OPG, and control.
 
-Please provide the statistics (e.g. mean, std, range) of the scores for NF1 patients w/o OPG, NF1 patients w/ OPG, and control.
+9. It is not clear where and how ROC curve was used. Please clarify. 
+
+10. The scoring system is heavy affected by the diameter size. A >= 2 SD diameter is either "suggestive of OPG" or "OPG", while >= 1 SD can not be in the category of "OPG".  How much performance does the scoring system gain by including the optic nerve tortuosity information? Based on table 1, the classification seems to be straightforward with only the diameter information. 
+
+Minor comments:
+11. I would suggest to put a upper bound for the diameter metric. For example, >= Mean + 1 SD and < Mean + 2 SD be assigned with a score of 2.5
+
+
